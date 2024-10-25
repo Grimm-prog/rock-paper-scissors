@@ -1,0 +1,99 @@
+/* Stile di colore grigio scuro */
+.gray {
+    color: rgb(20, 20, 20);
+}
+
+/* Stili per il colore verde */
+.green {
+    color: rgb(79, 128, 103);
+    /* Colore verde */
+}
+
+
+body{
+    background-color: #010101;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-family: Arial, sans-serif;
+}
+
+#scelta-computer{
+    width: 240px;
+    height: 240px;
+    background-color: #141414; /* Sfondo nero */
+    border: 2px solid rgb(79, 128, 103); /* Bordo verde */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#scelta-giocatore{
+    width: 240px;
+    height: 240px;
+    background-color: #141414; /* Sfondo nero */
+    border: 2px solid rgb(79, 128, 103); /* Bordo verde */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#scelte{
+    width: 240px;
+    height: 80px;
+    background-color: #141414; /* Sfondo nero */
+    border: 2px solid rgb(79, 128, 103); /* Bordo verde */
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#scelte img {
+    width: 70px;
+    height: 75px;
+}
+
+
+
+
+/* Stile bottone */
+.cta-button {
+    background-color: #4f8067; /* Colore verde */
+    color: white; /* Testo bianco */
+    border: none; /* Rimuovi il bordo predefinito */
+    padding: 10px 20px; /* Spaziatura interna */
+    border-radius: 20px; /* Bordo arrotondato */
+    font-size: 1rem; /* Dimensione del testo */
+    cursor: pointer; /* Cursore a mano al passaggio del mouse */
+    transition: background-color 0.3s ease; /* Transizione per l'hover */
+    margin-top: 30px; /* Margine sopra il bottone */
+}
+
+.cta-button:hover {
+    background-color: #3f7057; /* Colore verde più scuro al passaggio del mouse */
+}
+
+
+/* Stile dei link */
+.custom-link {
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: white; /* Testo bianco */
+    font-size: 1.2rem; /* Dimensione del testo */
+    transition: color 0.3s ease; /* Transizione per il colore */
+}
+
+/* Opzionale: aggiungi uno stile per l'effetto hover */
+.custom-link:hover {
+    color: #e3e3e3; /* Colore del testo al passaggio del mouse */
+}
+
+/* Sfondo per il footer */
+
+.green-background {
+    background-color: rgb(79, 128, 103); /* Colore verde */
+    color: white; /* Assicura che il testo sia bianco per contrasto */
+}
+
+.green-background p {
+    color: rgb(1, 1, 1); /* Colore nero per il testo dei paragrafi */
+}
+
+
