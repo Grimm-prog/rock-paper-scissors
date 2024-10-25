@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Link al font utilizzato -->
+    <title>Carta Sasso Forbici</title>
+    <!-- Font e Bootstrap -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-    <!-- Link Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Start a new Game!</h1>
-    
-      <!-- Link Bootstrap JS -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-  
+    <div class="container text-center my-5">
+        <h1 class="green">Start a New Game!</h1>
+        <div class="choices my-4">
+            <button id="rock" class="btn btn-outline-success mx-2">Sasso</button>
+            <button id="paper" class="btn btn-outline-success mx-2">Carta</button>
+            <button id="scissors" class="btn btn-outline-success mx-2">Forbici</button>
+        </div>
+        <div id="result" class="gray my-4"></div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script per la logica del gioco -->
+    <script src="script.js"></script>
 </body>
 </html>
